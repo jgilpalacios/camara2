@@ -11,7 +11,7 @@ var app = {
   iniciaBotones: function() {
     var buttonAction = document.querySelector('#button-action');
     buttonAction.addEventListener('click', function(){
-      alert('¡Pulsamos la cámara!');
+      //alert('¡Pulsamos la cámara!');
       app.cargarFoto(Camera.PictureSourceType.CAMERA);
     });
 
